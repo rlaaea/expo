@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+}
+.opacity{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    opacity: 0.3;
+}
+header{
+    position: absolute;
+    top: 0;
+    z-index: 5;
+
+}
+.logo h2{
+    text-transform: uppercase;
+    color: white;
+    margin-left: 90%;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    border-bottom: 1px solid white;
+}
+header .items img{
+    width: 20px;
+}
+.container{
+    max-width: 1440px;
+}
+.parent{
+    display: flex;
+    width: 100%;
+}
+.box{
+    width: 100px;
+    height: 75px;
+    background: red;
+}
+.block1{
+    display: flex;
+}
+.menu a{
+    padding-right: 25px;
+}
+.items img{
+    padding-right: 10px;
+}
+.h1 a{
+    color: white;
+    text-decoration: none;
+}
+.h1 h1{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    color: white;
+    font-size: 65px;
+}
+.h1 p{
+    position: absolute;
+    top: 47%;
+    left: 20%;
+    color: white;
+    font-size: 20px;
+}
+.h1 a{
+    position: absolute;
+    top: 57%;
+    left: 20%;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.container{
+    justify-content: space-between;
+    width: 470px;
+    position: absolute;
+    top: 50%;
+    left: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .square{
+    height: 125px;
+    width: 225px;
+    color: white;
+    box-sizing: border-box;
+    background: blue;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    text-align: center;
+}
+.container .square2{
+    height: 125px;
+    width: 225px;
+    color: white;
+    box-sizing: border-box;
+    background: lightgreen;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    text-align: center;
+}
+.container .square3{
+    height: 135px;
+    width: 225px;
+    color: white;
+    box-sizing: border-box;
+    background: orange;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    text-align: center;
+}
+.container .square4{
+    height: 135px;
+    width: 225px;
+    color: white;
+    box-sizing: border-box;
+    background: red;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    text-align: center;
+}
+.container .square a{
+    color: white;
+    text-decoration: none;
+}
+.container .square2 a{
+    color: white;
+    text-decoration: none;
+}
+.container .square3 a{
+    color: white;
+    text-decoration: none;
+}
+.container .square4 a{
+    color: white;
+    text-decoration: none;
+}
+.blue{
+    background: dodgerblue;
+    padding: 50px 0;
+}
+
+.blue a{
+    text-decoration: none;
+    color: white;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+}
+.wrap{
+    width: 80%;
+    margin: 0 auto;
+}
+.box3{
+    display: flex;
+    justify-content: space-between;
+}
+.one a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;
+}
+.one h4{
+    color: white;
+}
+.one a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.yellow{
+    background: orange;
+}
+.box5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer{
+    background: dodgerblue;
+}
+.main-block{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+}
+.block a{
+    color: white;
+    text-decoration: none;
+}
+.img img{
+    margin: 0 5px;
+}
+.sub-block{
+    width: 30%;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    border: none;
+    background: red;
+    box-sizing: border-box;
+    padding-top: 3px;
+}
